@@ -79,7 +79,7 @@ def callback_inline(call):
                 bot.send_message(call.message.chat.id, '💥 Пишите сюда → @dev_archi')
  
             # remove inline buttons
-            bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, text="Спасибо за оброщение! 😘",
+            bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, text="Спасибо за обращение! 😘",
                 reply_markup=None)
  
             # show alert
